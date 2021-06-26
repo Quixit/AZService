@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AZService", "AZService.vbproj", "{B7923DAF-60E9-42FD-B0FE-4E18466E76CD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{923D937E-C9A6-453C-87E0-68F468BDB363}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B7923DAF-60E9-42FD-B0FE-4E18466E76CD}.Debug.ActiveCfg = Debug|.NET
+		{B7923DAF-60E9-42FD-B0FE-4E18466E76CD}.Debug.Build.0 = Debug|.NET
+		{B7923DAF-60E9-42FD-B0FE-4E18466E76CD}.Release.ActiveCfg = Release|.NET
+		{B7923DAF-60E9-42FD-B0FE-4E18466E76CD}.Release.Build.0 = Release|.NET
+		{923D937E-C9A6-453C-87E0-68F468BDB363}.Debug.ActiveCfg = Debug
+		{923D937E-C9A6-453C-87E0-68F468BDB363}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
